@@ -59,7 +59,12 @@ class MLP(nn.Module):
         #######################
         # PUT YOUR CODE HERE  #
         #######################
-        pass
+        self.n_inputs = n_inputs
+        self.n_hidden = n_hidden
+        
+        self.n_classes = n_classes
+
+
         #######################
         # END OF YOUR CODE    #
         #######################
